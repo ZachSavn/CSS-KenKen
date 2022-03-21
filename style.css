@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+/*center title*/
+.title{
+text-align: center;
+}
+
+.grid{
+    display:grid;
+    background-color: black;
+    /*sets 4 rows and 1 fraction of container size*/
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4,1fr);
+    border:3px solid black;
+    /*no more than 600 px*/
+    max-width:600px;
+    max-height:600px;
+    width:100vmin;
+    height:100vmin;
+    margin:2rem auto;
+}
+
+.grid-items{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    position: relative;
+}
+/*put prompt in center add position relative to grid-items*/
+.prompt{
+font-weight: bold;
+font-size: 30px;
+}
+/*uses classes to build borders add these to classes that need them in html*/
+.border-top{
+    border-top: 5px solid black;
+}
+.border-right{
+    border-right: 5px solid black;
+}
+.border-bottom{
+    border-bottom: 5px solid black;
+}
+.border-left{
+    border-left: 5px solid black;
+}
+/*style input settings*/
+.grid input{
+    border:none;
+    font-family: monospace;
+
+}
