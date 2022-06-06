@@ -15,11 +15,31 @@
       grid-template-columns:repeat(4, 1fr);
       grid-template-rows: repeat(4, 1fr);
       border: 3px solid black;
-      max-width: 500px;
-      max-height: 500px;
+      max-width: 600px;
+      max-height: 600px;
+      height: 100vmin;
+      width: 100vmin;
+      margin: 3rem auto;
   }
 
   .grid-items{
-      background-color: grey;
+      background-color: lightGrey;
       border: 1px solid black;
+      position: relative;
+  }
+  
+  .border-top{
+      border-top: 6px solid black;
+  }
+
+  .border-right{
+      border-right: 6px solid black;
+  }
+
+  .border-bottom{
+      border-bottom: 6px soid black;
+  }
+
+  .border-left{
+      border-left: 6px solid black;
   }
