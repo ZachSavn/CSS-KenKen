@@ -8,3 +8,10 @@
     text-align: center;
   }
   
+ /* Creating a grid with 4 columns and 4 rows. */
+  .grid{
+      display: grid;
+      grid-template-columns:repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      border: 1px solid black;
+  }
