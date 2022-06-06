@@ -11,7 +11,15 @@
  /* Creating a grid with 4 columns and 4 rows. */
   .grid{
       display: grid;
+      background-color: black;
       grid-template-columns:repeat(4, 1fr);
       grid-template-rows: repeat(4, 1fr);
+      border: 3px solid black;
+      max-width: 500px;
+      max-height: 500px;
+  }
+
+  .grid-items{
+      background-color: grey;
       border: 1px solid black;
   }
