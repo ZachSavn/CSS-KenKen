@@ -1,0 +1,10 @@
+/* Making sure that the border is included in the width and height of the element. */
+* {
+    box-sizing: border-box;
+  }
+  
+  /*center title*/
+  .title {
+    text-align: center;
+  }
+  
