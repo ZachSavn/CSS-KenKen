@@ -28,6 +28,7 @@
       position: relative;
   }
   
+/* Styling the grid. */
   .border-top{
       border-top: 6px solid black;
   }
