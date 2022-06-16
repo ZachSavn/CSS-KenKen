@@ -36,10 +36,15 @@
       border-right: 6px solid black;
   }
 
-  .border-bottom{
-      border-bottom: 6px soid black;
-  }
+.border-bottom{
+    border-bottom: 6px solid black;
+}
 
   .border-left{
       border-left: 6px solid black;
+  }
+
+  .prompt{
+      font-weight: bold;
+      font-size: 20px;
   }
